@@ -1,0 +1,179 @@
+html {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    flex-direction: column;
+    background: #F5F5F5;
+}
+.box {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 33px rgba(190, 190, 190, 0.3);
+}
+
+.header {
+    width: 100%; 
+    margin: 0 auto; 
+    position: relative;
+    background: #FFFFFF;
+}
+
+.title {
+    float: left;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #567AA6;
+    margin: 10px 40px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -9px;
+    margin-right: 40px;
+}
+nav a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: right;
+    text-decoration-line: underline;
+    padding-left: 20px;
+    color: #138DFD;
+}
+ .body {
+    width: 100%;
+    background: #F7F8FB;
+    margin: 0 auto;
+    position: relative;
+    
+ }
+
+ .newItem {
+    margin: 40px;
+    padding: 40px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(175, 175, 175, 0.12);
+    border-radius: 8px;
+ }
+ .newItem h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 0;
+ }
+ .newItem input, .newItem textarea {
+    background: #F5F5F5;
+    border-radius: 8px;
+    height: 54px;
+    margin: 20px 0;
+    width: 40%;
+    border-width: 0;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #A5AAAB;
+    padding-left: 16px;
+ }
+ .newItem textarea {
+    height: 260px;
+    padding-top: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+ }
+ .newItem input:focus, .newItem textarea:focus {
+    outline: 0;
+ }
+ .newItem button {
+    position: relative;
+    width: 176px;
+    height: 54px;
+    background: #30A2C6;
+    border-radius: 8px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    border-width: 0;
+ }
+
+ /*catalog*/
+ .catalog {
+    padding: 40px;
+ }
+ .catalog h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    margin-top: 0;
+ }
+
+ .list {
+    flex-wrap: wrap;
+    display: flex;
+ }
+
+ .item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    gap: 20px;
+
+    position: relative;
+    width: 269px;
+    height: 296px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(175, 175, 175, 0.12);
+    border-radius: 8px;
+ }
+
+ .imgItem {
+    width: 238px;
+    height: 152px;
+    background: url(img.png) no-repeat;
+    background-size: contain;
+ }
+
+ .nameItem {
+    width: 244px;
+    height: 49px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    margin-left: 16px;
+ }
+
+ .price {
+    width: 100%;
+    height: 23px;font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    margin-left: 16px;
+ }
+ .noitem .price {
+    color: rgba(0, 0, 0, 0.34);
+ }
